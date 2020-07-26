@@ -49,6 +49,8 @@ function guessNumber() {
         document.getElementById("result").innerHTML = "Winner! ! !";
         //set Try Again button visible
         document.getElementById("tryAgain").style.opacity = 1;
+        //change background image
+        document.getElementById("form").style.backgroundImage = "url('https://cdn.pixabay.com/photo/2017/06/23/15/22/balloons-2434982_960_720.jpg')";
     }
 }
 
@@ -58,6 +60,8 @@ function tryAgain() {
     numOfGuess = 3;
     numOfStars = 0;
     document.getElementById("result").innerHTML = "";
+    document.getElementById("form").style.backgroundImage = 'none';
+    document.getElementById("tryAgain").style.opacity = 0;
     //set the visibility of all stars in the array to 0.1
     images.forEach(function (i) {
         document.getElementById(i).style.opacity = 0.1;
