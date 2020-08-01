@@ -1,15 +1,15 @@
 # JavaScript Guessing Game
 This is a simple JavaScript game where the player has to guess a number. 
-<img align="center" width="400" height="300" src="1.png">
+<img align="center" width="400" height="300" src="1.PNG">
 
 ##Build with
 <img align="right" width="200" height="100" src="https://i.morioh.com/8c8203b86e.png">
 
-[Node.js](https://nodejs.org/en/)
-[Express](https://expressjs.com/)
-[JavaScript](https://www.javascript.com/)
-CSS
-HTML
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [JavaScript](https://www.javascript.com/)
+- CSS
+- HTML
 
 ## To run this application on GitPod follow next steps 
 
